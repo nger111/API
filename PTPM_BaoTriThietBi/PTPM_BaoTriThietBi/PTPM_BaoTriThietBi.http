@@ -1,0 +1,6 @@
+@PTPM_BaoTriThietBi_HostAddress = http://localhost:5221
+
+GET {{PTPM_BaoTriThietBi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

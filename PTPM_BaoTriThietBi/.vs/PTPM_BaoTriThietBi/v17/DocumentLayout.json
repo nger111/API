@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Web API\\PTPM_BaoTriThietBi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|solutionrelative:ptpm_baotrithietbi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\providermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|solutionrelative:ptpm_baotrithietbi\\providermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|c:\\web api\\ptpm_baotrithietbi\\dal\\helper\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\helper\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|c:\\web api\\ptpm_baotrithietbi\\dal\\helper\\collectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\helper\\collectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|c:\\web api\\ptpm_baotrithietbi\\dal\\helper\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\helper\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|c:\\web api\\ptpm_baotrithietbi\\dal\\helper\\interfaces\\idatabasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\helper\\interfaces\\idatabasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|c:\\web api\\ptpm_baotrithietbi\\model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|solutionrelative:model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|c:\\web api\\ptpm_baotrithietbi\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|c:\\web api\\ptpm_baotrithietbi\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|solutionrelative:ptpm_baotrithietbi\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PTPM_BaoTriThietBi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-14T16:27:32.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProviderMiddleware.cs",
+              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\ProviderMiddleware.cs",
+              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\ProviderMiddleware.cs",
+              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\ProviderMiddleware.cs",
+              "RelativeToolTip": "PTPM_BaoTriThietBi\\ProviderMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T16:19:53.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\DAL\\Helper\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "DAL\\Helper\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\DAL\\Helper\\DatabaseHelper.cs",
+              "RelativeToolTip": "DAL\\Helper\\DatabaseHelper.cs",
+              "ViewState": "AgIAAH8DAAAAAAAAAAAgwI0DAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:58:56.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CollectionHelper.cs",
+              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\DAL\\Helper\\CollectionHelper.cs",
+              "RelativeDocumentMoniker": "DAL\\Helper\\CollectionHelper.cs",
+              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\DAL\\Helper\\CollectionHelper.cs",
+              "RelativeToolTip": "DAL\\Helper\\CollectionHelper.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAgwNEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:58:08.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\DAL\\Helper\\AppSettings.cs",
+              "RelativeDocumentMoniker": "DAL\\Helper\\AppSettings.cs",
+              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\DAL\\Helper\\AppSettings.cs",
+              "RelativeToolTip": "DAL\\Helper\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:57:11.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\DAL\\Helper\\Interfaces\\IDatabaseHelper.cs",
+              "RelativeDocumentMoniker": "DAL\\Helper\\Interfaces\\IDatabaseHelper.cs",
+              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\DAL\\Helper\\Interfaces\\IDatabaseHelper.cs",
+              "RelativeToolTip": "DAL\\Helper\\Interfaces\\IDatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:55:28.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\Model\\Class1.cs",
+              "RelativeDocumentMoniker": "Model\\Class1.cs",
+              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\Model\\Class1.cs",
+              "RelativeToolTip": "Model\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:43:18.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL\\Class1.cs",
+              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\BLL\\Class1.cs",
+              "RelativeToolTip": "BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:42:58.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "DAL\\Class1.cs",
+              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\DAL\\Class1.cs",
+              "RelativeToolTip": "DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:42:40.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "API.csproj",
+              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\API.csproj",
+              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\API.csproj",
+              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\API.csproj",
+              "RelativeToolTip": "PTPM_BaoTriThietBi\\API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-14T15:38:46.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\appsettings.Development.json",
+              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\appsettings.Development.json",
+              "RelativeToolTip": "PTPM_BaoTriThietBi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-14T14:51:53.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\WeatherForecast.cs",
+              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\WeatherForecast.cs",
+              "RelativeToolTip": "PTPM_BaoTriThietBi\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T14:40:04.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\appsettings.json",
+              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\appsettings.json",
+              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\appsettings.json",
+              "RelativeToolTip": "PTPM_BaoTriThietBi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-14T14:19:55.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Program.cs",
+              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Program.cs",
+              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Program.cs",
+              "RelativeToolTip": "PTPM_BaoTriThietBi\\Program.cs",
+              "ViewState": "AgIAAAkAAACAZ2ZmZmYEwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T14:19:50.496Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
