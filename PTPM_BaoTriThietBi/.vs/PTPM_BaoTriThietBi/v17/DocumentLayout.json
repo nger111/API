@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Web API\\API ver3\\API\\PTPM_BaoTriThietBi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|c:\\web api\\api ver3\\api\\ptpm_baotrithietbi\\dal\\taisanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\taisanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|c:\\web api\\api ver3\\api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|solutionrelative:ptpm_baotrithietbi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|c:\\web api\\api ver3\\api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|solutionrelative:ptpm_baotrithietbi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|c:\\web api\\api ver3\\api\\ptpm_baotrithietbi\\dal\\taisanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\taisanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|c:\\web api\\api ver3\\api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|solutionrelative:ptpm_baotrithietbi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|c:\\web api\\api ver3\\api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|solutionrelative:ptpm_baotrithietbi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|c:\\web api\\api ver3\\api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|solutionrelative:ptpm_baotrithietbi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -58,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Web API\\API ver3\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Program.cs",
               "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Program.cs",
@@ -70,12 +70,11 @@
               "RelativeToolTip": "PTPM_BaoTriThietBi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T18:41:15.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T18:41:15.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TaiSanService.cs",
               "DocumentMoniker": "C:\\Web API\\API ver3\\API\\PTPM_BaoTriThietBi\\BLL\\TaiSanService.cs",
               "RelativeDocumentMoniker": "BLL\\TaiSanService.cs",
@@ -83,12 +82,11 @@
               "RelativeToolTip": "BLL\\TaiSanService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T18:39:11.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T18:39:11.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TaiSanRepository.cs",
               "DocumentMoniker": "C:\\Web API\\API ver3\\API\\PTPM_BaoTriThietBi\\DAL\\TaiSanRepository.cs",
               "RelativeDocumentMoniker": "DAL\\TaiSanRepository.cs",
@@ -101,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TaiSan.cs",
               "DocumentMoniker": "C:\\Web API\\API ver3\\API\\PTPM_BaoTriThietBi\\Model\\TaiSan.cs",
               "RelativeDocumentMoniker": "Model\\TaiSan.cs",
@@ -109,12 +107,11 @@
               "RelativeToolTip": "Model\\TaiSan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T18:38:18.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T18:38:18.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TaiSanControllers.cs",
               "DocumentMoniker": "C:\\Web API\\API ver3\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Controllers\\TaiSanControllers.cs",
               "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Controllers\\TaiSanControllers.cs",
@@ -122,12 +119,11 @@
               "RelativeToolTip": "PTPM_BaoTriThietBi\\Controllers\\TaiSanControllers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T18:38:13.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T18:38:13.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "VeSuCoController.cs",
               "DocumentMoniker": "C:\\Web API\\API ver3\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Controllers\\VeSuCoController.cs",
               "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Controllers\\VeSuCoController.cs",
@@ -135,25 +131,24 @@
               "RelativeToolTip": "PTPM_BaoTriThietBi\\Controllers\\VeSuCoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T18:37:23.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T18:37:23.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Web API\\API ver3\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\appsettings.json",
               "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\appsettings.json",
               "ToolTip": "C:\\Web API\\API ver3\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\appsettings.json",
               "RelativeToolTip": "PTPM_BaoTriThietBi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-14T14:19:55.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ProviderMiddleware.cs",
               "DocumentMoniker": "C:\\Web API\\API ver3\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\ProviderMiddleware.cs",
               "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\ProviderMiddleware.cs",
@@ -161,12 +156,11 @@
               "RelativeToolTip": "PTPM_BaoTriThietBi\\ProviderMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T16:19:53.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T16:19:53.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DatabaseHelper.cs",
               "DocumentMoniker": "C:\\Web API\\API ver3\\API\\PTPM_BaoTriThietBi\\DAL\\Helper\\DatabaseHelper.cs",
               "RelativeDocumentMoniker": "DAL\\Helper\\DatabaseHelper.cs",
@@ -174,12 +168,11 @@
               "RelativeToolTip": "DAL\\Helper\\DatabaseHelper.cs",
               "ViewState": "AgIAAH8DAAAAAAAAAAAgwI0DAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T15:58:56.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T15:58:56.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Web API\\API ver3\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Properties\\launchSettings.json",
@@ -187,12 +180,11 @@
               "RelativeToolTip": "PTPM_BaoTriThietBi\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-14T16:27:32.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T16:27:32.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Web API\\API ver3\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\appsettings.Development.json",
               "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\appsettings.Development.json",
@@ -213,8 +205,7 @@
               "RelativeToolTip": "PTPM_BaoTriThietBi\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:40:04.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T14:40:04.334Z"
             }
           ]
         }
