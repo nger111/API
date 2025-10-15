@@ -1,58 +1,198 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Web API\\PTPM_BaoTriThietBi\\",
+  "WorkspaceRootPath": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\controllers\\assetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\controllers\\assetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\partusageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\partusageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\models\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\models\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\partservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\partservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\workorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\workorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\models\\warranty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\models\\warranty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\warrantyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\warrantyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\models\\workorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\models\\workorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\assetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\assetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\models\\technician.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\models\\technician.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\interfaces\\ipartusageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\ipartusageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\models\\partusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\models\\partusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\interfaces\\ipartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\ipartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|c:\\web api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi.csproj|solutionrelative:ptpm_baotrithietbi\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\interfaces\\iworkorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iworkorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\interfaces\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\interfaces\\iwarrantyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iwarrantyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\bll\\interfaces\\iassetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31858E6F-CBFA-4971-83F8-D6A3D643578F}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iassetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\schedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\schedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\partusagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\partusagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\model\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|solutionrelative:model\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\model\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|solutionrelative:model\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\model\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|solutionrelative:model\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\model\\partusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|solutionrelative:model\\partusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\partrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\partrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\model\\workorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|solutionrelative:model\\workorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\model\\warranty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|solutionrelative:model\\warranty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\model\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|solutionrelative:model\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32777D40-9B64-4DEB-8E72-1E2EFD871319}|Model\\Model.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|solutionrelative:ptpm_baotrithietbi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|solutionrelative:ptpm_baotrithietbi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\warrantyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\warrantyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\interfaces\\ipartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ipartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\workorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\workorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\interfaces\\ipartusagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ipartusagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\interfaces\\iworkorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iworkorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\interfaces\\ischedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ischedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\interfaces\\iwarrantyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iwarrantyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\interfaces\\iassetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iassetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\providermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|solutionrelative:ptpm_baotrithietbi\\providermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\dal\\helper\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3A210B2-1E34-4865-9227-45241F37886A}|DAL\\DAL.csproj|solutionrelative:dal\\helper\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|solutionrelative:ptpm_baotrithietbi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|solutionrelative:ptpm_baotrithietbi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|d:\\m\u00F4n h\u1ECDc 4 n\u0103m\\n\u0103m 3\\api\\api\\ptpm_baotrithietbi\\ptpm_baotrithietbi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBAE1AF9-518C-47DA-BE19-A5574EE0E05E}|PTPM_BaoTriThietBi\\API.csproj|solutionrelative:ptpm_baotrithietbi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,176 +202,644 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AssetController.cs",
-              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Controllers\\AssetController.cs",
-              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Controllers\\AssetController.cs",
-              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Controllers\\AssetController.cs",
-              "RelativeToolTip": "PTPM_BaoTriThietBi\\Controllers\\AssetController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:43:42.227Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\WeatherForecast.cs",
-              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\WeatherForecast.cs",
-              "RelativeToolTip": "PTPM_BaoTriThietBi\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PartUsageService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\PartUsageService.cs",
+              "RelativeDocumentMoniker": "BLL\\PartUsageService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\PartUsageService.cs",
+              "RelativeToolTip": "BLL\\PartUsageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:40:04.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Schedule.cs",
-              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\Schedule.cs",
-              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Models\\Schedule.cs",
-              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\Schedule.cs",
-              "RelativeToolTip": "PTPM_BaoTriThietBi\\Models\\Schedule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:36:25.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Technician.cs",
-              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\Technician.cs",
-              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Models\\Technician.cs",
-              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\Technician.cs",
-              "RelativeToolTip": "PTPM_BaoTriThietBi\\Models\\Technician.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:36:03.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PartUsage.cs",
-              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\PartUsage.cs",
-              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Models\\PartUsage.cs",
-              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\PartUsage.cs",
-              "RelativeToolTip": "PTPM_BaoTriThietBi\\Models\\PartUsage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:35:41.952Z",
+              "WhenOpened": "2025-10-15T06:16:23.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Part.cs",
-              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\Part.cs",
-              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Models\\Part.cs",
-              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\Part.cs",
-              "RelativeToolTip": "PTPM_BaoTriThietBi\\Models\\Part.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "PartService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\PartService.cs",
+              "RelativeDocumentMoniker": "BLL\\PartService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\PartService.cs",
+              "RelativeToolTip": "BLL\\PartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:35:22.188Z",
+              "WhenOpened": "2025-10-15T06:16:21.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\Ticket.cs",
-              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Models\\Ticket.cs",
-              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\Ticket.cs",
-              "RelativeToolTip": "PTPM_BaoTriThietBi\\Models\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "WorkOrderService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\WorkOrderService.cs",
+              "RelativeDocumentMoniker": "BLL\\WorkOrderService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\WorkOrderService.cs",
+              "RelativeToolTip": "BLL\\WorkOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:35:03.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WorkOrder.cs",
-              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\WorkOrder.cs",
-              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Models\\WorkOrder.cs",
-              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\WorkOrder.cs",
-              "RelativeToolTip": "PTPM_BaoTriThietBi\\Models\\WorkOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:34:43.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Warranty.cs",
-              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\Warranty.cs",
-              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Models\\Warranty.cs",
-              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\Warranty.cs",
-              "RelativeToolTip": "PTPM_BaoTriThietBi\\Models\\Warranty.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:33:18.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Asset.cs",
-              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\Asset.cs",
-              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Models\\Asset.cs",
-              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\Asset.cs",
-              "RelativeToolTip": "PTPM_BaoTriThietBi\\Models\\Asset.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:32:00.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "PTPM_BaoTriThietBi\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:26:15.008Z",
+              "WhenOpened": "2025-10-15T06:16:18.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\TicketService.cs",
+              "RelativeDocumentMoniker": "BLL\\TicketService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\TicketService.cs",
+              "RelativeToolTip": "BLL\\TicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:16:14.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScheduleService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\ScheduleService.cs",
+              "RelativeDocumentMoniker": "BLL\\ScheduleService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\ScheduleService.cs",
+              "RelativeToolTip": "BLL\\ScheduleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:16:11.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WarrantyService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\WarrantyService.cs",
+              "RelativeDocumentMoniker": "BLL\\WarrantyService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\WarrantyService.cs",
+              "RelativeToolTip": "BLL\\WarrantyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:16:09.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssetService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\AssetService.cs",
+              "RelativeDocumentMoniker": "BLL\\AssetService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\AssetService.cs",
+              "RelativeToolTip": "BLL\\AssetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:16:04.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\UserService.cs",
+              "RelativeDocumentMoniker": "BLL\\UserService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\UserService.cs",
+              "RelativeToolTip": "BLL\\UserService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:15:02.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:08:14.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssetRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\AssetRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\AssetRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\AssetRepository.cs",
+              "RelativeToolTip": "DAL\\AssetRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:12:56.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPartUsageService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\IPartUsageService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IPartUsageService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\IPartUsageService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IPartUsageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:08:30.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPartService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\IPartService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IPartService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\IPartService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IPartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:08:27.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IWorkOrderService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\IWorkOrderService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IWorkOrderService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\IWorkOrderService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IWorkOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:08:25.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITicketService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\ITicketService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\ITicketService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\ITicketService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\ITicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:08:23.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IScheduleService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\IScheduleService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IScheduleService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\IScheduleService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IScheduleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:08:21.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IWarrantyService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\IWarrantyService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IWarrantyService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\IWarrantyService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IWarrantyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:08:19.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAssetService.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\IAssetService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IAssetService.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\Interfaces\\IAssetService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IAssetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:08:17.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Asset.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Asset.cs",
+              "RelativeDocumentMoniker": "Model\\Asset.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Asset.cs",
+              "RelativeToolTip": "Model\\Asset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:55:29.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Ticket.cs",
+              "RelativeDocumentMoniker": "Model\\Ticket.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Ticket.cs",
+              "RelativeToolTip": "Model\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:55:38.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Schedule.cs",
+              "RelativeDocumentMoniker": "Model\\Schedule.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Schedule.cs",
+              "RelativeToolTip": "Model\\Schedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:55:36.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PartUsageRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\PartUsageRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\PartUsageRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\PartUsageRepository.cs",
+              "RelativeToolTip": "DAL\\PartUsageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:15:47.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ScheduleRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\ScheduleRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\ScheduleRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\ScheduleRepository.cs",
+              "RelativeToolTip": "DAL\\ScheduleRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:13:02.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PartUsage.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\PartUsage.cs",
+              "RelativeDocumentMoniker": "Model\\PartUsage.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\PartUsage.cs",
+              "RelativeToolTip": "Model\\PartUsage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:55:45.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PartRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\PartRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\PartRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\PartRepository.cs",
+              "RelativeToolTip": "DAL\\PartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:15:42.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WorkOrder.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\WorkOrder.cs",
+              "RelativeDocumentMoniker": "Model\\WorkOrder.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\WorkOrder.cs",
+              "RelativeToolTip": "Model\\WorkOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:55:40.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Warranty.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Warranty.cs",
+              "RelativeDocumentMoniker": "Model\\Warranty.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Warranty.cs",
+              "RelativeToolTip": "Model\\Warranty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:55:32.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\UserRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\UserRepository.cs",
+              "RelativeToolTip": "DAL\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:12:45.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\TicketRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\TicketRepository.cs",
+              "RelativeToolTip": "DAL\\TicketRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:13:05.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Part.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Part.cs",
+              "RelativeDocumentMoniker": "Model\\Part.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Part.cs",
+              "RelativeToolTip": "Model\\Part.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:55:43.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:43:18.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\appsettings.json",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\appsettings.json",
               "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\appsettings.json",
-              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\appsettings.json",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\appsettings.json",
               "RelativeToolTip": "PTPM_BaoTriThietBi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-14T14:19:55.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 31,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Program.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Program.cs",
               "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Program.cs",
-              "ToolTip": "C:\\Web API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Program.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Program.cs",
               "RelativeToolTip": "PTPM_BaoTriThietBi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T14:19:50.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T14:19:50.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IPartRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\IPartRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IPartRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\IPartRepository.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IPartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:10:44.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "WarrantyRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\WarrantyRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\WarrantyRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\WarrantyRepository.cs",
+              "RelativeToolTip": "DAL\\WarrantyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:12:59.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "WorkOrderRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\WorkOrderRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\WorkOrderRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\WorkOrderRepository.cs",
+              "RelativeToolTip": "DAL\\WorkOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:13:08.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IPartUsageRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\IPartUsageRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IPartUsageRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\IPartUsageRepository.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IPartUsageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:10:46.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IWorkOrderRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\IWorkOrderRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IWorkOrderRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\IWorkOrderRepository.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IWorkOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:10:41.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ITicketRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\ITicketRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\ITicketRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\ITicketRepository.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\ITicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:10:35.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IScheduleRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\IScheduleRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IScheduleRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\IScheduleRepository.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IScheduleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:10:33.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IWarrantyRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\IWarrantyRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IWarrantyRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\IWarrantyRepository.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IWarrantyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:10:31.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IAssetRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\IAssetRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IAssetRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\IAssetRepository.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IAssetRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:10:29.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T05:10:24.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DAL.csproj",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\DAL.csproj",
+              "RelativeToolTip": "DAL\\DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-15T03:25:35.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ProviderMiddleware.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\ProviderMiddleware.cs",
+              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\ProviderMiddleware.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\ProviderMiddleware.cs",
+              "RelativeToolTip": "PTPM_BaoTriThietBi\\ProviderMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T16:19:53.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Helper\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "DAL\\Helper\\DatabaseHelper.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\Helper\\DatabaseHelper.cs",
+              "RelativeToolTip": "DAL\\Helper\\DatabaseHelper.cs",
+              "ViewState": "AgIAAH8DAAAAAAAAAAAgwI0DAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:58:56.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PTPM_BaoTriThietBi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-14T16:27:32.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\appsettings.Development.json",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\appsettings.Development.json",
+              "RelativeToolTip": "PTPM_BaoTriThietBi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-14T14:51:53.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "PTPM_BaoTriThietBi\\WeatherForecast.cs",
+              "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\WeatherForecast.cs",
+              "RelativeToolTip": "PTPM_BaoTriThietBi\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T14:40:04.334Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 143,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
