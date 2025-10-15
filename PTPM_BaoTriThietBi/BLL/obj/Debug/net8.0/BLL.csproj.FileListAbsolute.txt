@@ -34,3 +34,21 @@ D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\BLL.
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\refint\BLL.dll
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\BLL.pdb
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\ref\BLL.dll
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\bin\Debug\net8.0\BLL.deps.json
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\bin\Debug\net8.0\BLL.dll
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\bin\Debug\net8.0\BLL.pdb
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\bin\Debug\net8.0\DAL.dll
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\bin\Debug\net8.0\Model.dll
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\bin\Debug\net8.0\DAL.pdb
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\bin\Debug\net8.0\Model.pdb
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\BLL.sourcelink.json
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\BLL.dll
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\refint\BLL.dll
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\BLL.pdb
+C:\Web API\API ver3\API\PTPM_BaoTriThietBi\BLL\obj\Debug\net8.0\ref\BLL.dll

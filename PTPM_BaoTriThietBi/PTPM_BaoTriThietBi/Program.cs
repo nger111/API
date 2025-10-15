@@ -1,15 +1,22 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using DAL;
+using DAL.Interfaces;
+using BLL;
+using BLL.Interfaces;
 
-// Add services to the container.
+var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// --- Đăng ký DAL + BLL ---
+string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddScoped<ITaiSanRepository>(sp => new TaiSanRepository(connectionString));
+builder.Services.AddScoped<ITaiSanService, TaiSanService>();
+// -----------------------------
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -17,9 +24,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

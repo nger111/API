@@ -1,4 +1,4 @@
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 using DAL.Interfaces;
 using Model;
 
@@ -54,17 +54,36 @@ namespace DAL
 
         public void Them(TaiSan taiSan)
         {
+            // Danh sách giá trị hợp lệ cho cột Status
+            var trangThaiHopLe = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+    {
+        "Active",     // Hoạt động
+        "Inactive",   // Không hoạt động
+        "Repair",     // Đang sửa
+        "Disposed"    // Đã thanh lý
+    };
+
+            if (!trangThaiHopLe.Contains(taiSan.TrangThai))
+            {
+                throw new ArgumentException($"Giá trị Status '{taiSan.TrangThai}' không hợp lệ. Giá trị hợp lệ: {string.Join(", ", trangThaiHopLe)}");
+            }
+
             using var conn = new SqlConnection(_chuoiKetNoi);
-            using var cmd = new SqlCommand(@"INSERT INTO Assets (AssetName, SerialNumber, Location, PurchaseDate, Status)
-                                             VALUES (@AssetName, @SerialNumber, @Location, @PurchaseDate, @Status)", conn);
+            using var cmd = new SqlCommand(@"
+        INSERT INTO Assets (AssetName, SerialNumber, Location, PurchaseDate, Status)
+        VALUES (@AssetName, @SerialNumber, @Location, @PurchaseDate, @Status)
+    ", conn);
+
             cmd.Parameters.AddWithValue("@AssetName", taiSan.TenTaiSan);
             cmd.Parameters.AddWithValue("@SerialNumber", taiSan.SoSerial);
             cmd.Parameters.AddWithValue("@Location", (object?)taiSan.ViTri ?? DBNull.Value);
             cmd.Parameters.AddWithValue("@PurchaseDate", (object?)taiSan.NgayMua ?? DBNull.Value);
             cmd.Parameters.AddWithValue("@Status", taiSan.TrangThai);
+
             conn.Open();
             cmd.ExecuteNonQuery();
         }
+
 
         public void Sua(TaiSan taiSan)
         {
