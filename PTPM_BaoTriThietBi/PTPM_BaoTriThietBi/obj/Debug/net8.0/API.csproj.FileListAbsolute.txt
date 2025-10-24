@@ -1,19 +1,9 @@
-D:\Môn học 4 năm\Năm 3\API\dmm\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
-D:\Môn học 4 năm\Năm 3\API\dmm\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\rpswa.dswa.cache.json
-D:\Môn học 4 năm\Năm 3\API\dmm\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.GeneratedMSBuildEditorConfig.editorconfig
-D:\Môn học 4 năm\Năm 3\API\dmm\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.AssemblyInfoInputs.cache
-D:\Môn học 4 năm\Năm 3\API\dmm\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.AssemblyInfo.cs
-D:\Môn học 4 năm\Năm 3\API\dmm\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
-D:\Môn học 4 năm\Năm 3\API\dmm\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
-D:\Môn học 4 năm\Năm 3\API\dmm\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
-D:\Môn học 4 năm\Năm 3\API\dmm\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.sourcelink.json
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\rpswa.dswa.cache.json
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.GeneratedMSBuildEditorConfig.editorconfig
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.AssemblyInfoInputs.cache
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.AssemblyInfo.cs
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
-D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\obj\Debug\net8.0\API.sourcelink.json
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\bin\Debug\net8.0\appsettings.Development.json
@@ -27,6 +17,7 @@ D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\bin\De
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\bin\Debug\net8.0\Azure.Core.dll
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\bin\Debug\net8.0\Azure.Identity.dll
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\bin\Debug\net8.0\Humanizer.dll
+D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
 D:\Môn học 4 năm\Năm 3\API\API\PTPM_BaoTriThietBi\PTPM_BaoTriThietBi\bin\Debug\net8.0\Microsoft.Build.Locator.dll

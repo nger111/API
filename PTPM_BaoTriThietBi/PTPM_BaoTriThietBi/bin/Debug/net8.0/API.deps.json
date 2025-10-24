@@ -9,6 +9,7 @@
       "API/1.0.0": {
         "dependencies": {
           "BLL": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.21",
           "Microsoft.Data.SqlClient": "6.1.2",
           "Microsoft.EntityFrameworkCore": "9.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.9",
@@ -59,6 +60,17 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.21": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.7.1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "8.0.21.0",
+            "fileVersion": "8.0.2125.47515"
           }
         }
       },
@@ -1218,6 +1230,7 @@
       "BLL/1.0.0": {
         "dependencies": {
           "DAL": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.21",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.9",
           "Microsoft.IdentityModel.Tokens": "8.14.0",
           "Model": "1.0.0",
@@ -1237,6 +1250,7 @@
       },
       "DAL/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.21",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.9",
           "Microsoft.IdentityModel.Tokens": "8.14.0",
           "Model": "1.0.0",
@@ -1256,6 +1270,7 @@
       },
       "Model/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.21",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.9",
           "Microsoft.IdentityModel.Tokens": "8.14.0",
           "Newtonsoft.Json": "13.0.4",
@@ -1300,6 +1315,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZuUpJ4DvmVArmTlyGGg+b9IdKgd8Kw0SmEzhjy4dQw8R6rxfNqCXfGvGm3ld7xlrgthJFou/le9tadsSyjFLuw==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.21",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.21.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
       "type": "package",
