@@ -194,8 +194,7 @@
               "RelativeToolTip": "Model\\WorkOrders.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwBEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T08:01:43.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T08:01:43.681Z"
             },
             {
               "$type": "Document",
@@ -207,8 +206,7 @@
               "RelativeToolTip": "DAL\\Interfaces\\IWorkOrdersRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T08:01:40.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T08:01:40.414Z"
             },
             {
               "$type": "Document",
@@ -218,7 +216,7 @@
               "RelativeDocumentMoniker": "DAL\\WorkOrdersRepository.cs",
               "ToolTip": "D:\\M\u00F4n h\u1ECDc 4 n\u0103m\\N\u0103m 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\WorkOrdersRepository.cs",
               "RelativeToolTip": "DAL\\WorkOrdersRepository.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAowKIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAkwKIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-24T08:01:28.538Z",
               "EditorCaption": ""
