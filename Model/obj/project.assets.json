@@ -2165,11 +2165,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Model.csproj",
+      "projectUniqueName": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Model.csproj",
+      "projectPath": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\Model\\Model.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\obj\\",
+      "outputPath": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

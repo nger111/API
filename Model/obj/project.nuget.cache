@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L3K5nwA3sS8=",
+  "dgSpecHash": "6GV3UX9rbJ0=",
   "success": true,
-  "projectFilePath": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Model.csproj",
+  "projectFilePath": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\Model\\Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.21\\microsoft.aspnetcore.authentication.jwtbearer.8.0.21.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\8.0.0\\microsoft.extensions.apidescription.server.8.0.0.nupkg.sha512",
