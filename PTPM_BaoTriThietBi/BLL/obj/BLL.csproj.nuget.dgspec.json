@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\BLL.csproj": {}
+    "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\BLL.csproj": {
+    "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\BLL.csproj",
+        "projectPath": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\BLL\\obj\\",
+        "outputPath": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\DAL.csproj"
+              "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\DAL\\DAL.csproj"
               },
-              "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Model.csproj": {
-                "projectPath": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Model.csproj"
+              "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\Model\\Model.csproj": {
+                "projectPath": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\Model\\Model.csproj"
               }
             }
           }
@@ -114,14 +114,14 @@
         }
       }
     },
-    "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\DAL.csproj": {
+    "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\DAL.csproj",
+        "projectPath": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\DAL\\obj\\",
+        "outputPath": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -142,8 +142,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Model.csproj": {
-                "projectPath": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Model.csproj"
+              "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\Model\\Model.csproj": {
+                "projectPath": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\Model\\Model.csproj"
               }
             }
           }
@@ -221,14 +221,14 @@
         }
       }
     },
-    "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Model.csproj": {
+    "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Model.csproj",
+        "projectUniqueName": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\Model.csproj",
+        "projectPath": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\Model\\obj\\",
+        "outputPath": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

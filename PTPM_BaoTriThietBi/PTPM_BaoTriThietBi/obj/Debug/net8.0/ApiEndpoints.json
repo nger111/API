@@ -109,9 +109,25 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "API.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API.Controllers.PartsController",
     "Method": "Create",
-    "RelativePath": "api/Parts/create",
+    "RelativePath": "api/Parts/create-parts",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -137,7 +153,7 @@
   {
     "ContainingType": "API.Controllers.PartsController",
     "Method": "Delete",
-    "RelativePath": "api/Parts/delete/{id}",
+    "RelativePath": "api/Parts/delete-parts/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -152,7 +168,7 @@
   },
   {
     "ContainingType": "API.Controllers.PartsController",
-    "Method": "GetAll",
+    "Method": "GetDataAll",
     "RelativePath": "api/Parts/get-all",
     "HttpMethod": "GET",
     "IsController": true,
@@ -172,7 +188,7 @@
   },
   {
     "ContainingType": "API.Controllers.PartsController",
-    "Method": "GetById",
+    "Method": "GetDatabyID",
     "RelativePath": "api/Parts/get-by-id/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -199,7 +215,7 @@
   {
     "ContainingType": "API.Controllers.PartsController",
     "Method": "Update",
-    "RelativePath": "api/Parts/update/{id}",
+    "RelativePath": "api/Parts/update-parts/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -437,7 +453,7 @@
   },
   {
     "ContainingType": "API.Controllers.TicketController",
-    "Method": "CreateTickets",
+    "Method": "CreateTicket",
     "RelativePath": "api/Ticket/create-tickets",
     "HttpMethod": "POST",
     "IsController": true,
@@ -479,7 +495,7 @@
   },
   {
     "ContainingType": "API.Controllers.TicketController",
-    "Method": "GetDatabAll",
+    "Method": "GetDataAll",
     "RelativePath": "api/Ticket/get-all",
     "HttpMethod": "GET",
     "IsController": true,
@@ -514,6 +530,26 @@
     "ReturnTypes": [
       {
         "Type": "Model.Tickets",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.TicketController",
+    "Method": "GetMyTickets",
+    "RelativePath": "api/Ticket/get-my-tickets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Model.Tickets, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -841,6 +877,26 @@
     "ReturnTypes": [
       {
         "Type": "Model.WorkOrders",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.WorkOrderController",
+    "Method": "GetMyWorkOrders",
+    "RelativePath": "api/WorkOrder/get-my-workorders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Model.WorkOrders, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

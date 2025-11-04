@@ -1,6 +1,7 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using BLL.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
@@ -8,7 +9,7 @@ using Model;
 
 namespace API.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class PartUsageController : ControllerBase
@@ -22,6 +23,8 @@ namespace API.Controllers
             _cache = cache;
         }
 
+        // Admin và Technician tạo part usage
+        [Authorize(Roles = "Admin,Technician")]
         [HttpPost("create-partusage")]
         public PartUsages Create([FromBody] PartUsages model)
         {
@@ -30,9 +33,13 @@ namespace API.Controllers
             return model;
         }
 
+        // Admin và Technician xem part usage theo ID
+        [Authorize(Roles = "Admin,Technician")]
         [HttpGet("get-by-id/{id}")]
         public PartUsages GetById(string id) => _business.GetDatabyID(id);
 
+        // Admin và Technician xem danh sách
+        [Authorize(Roles = "Admin,Technician")]
         [HttpGet("get-all")]
         public IEnumerable<PartUsages> GetAll()
         {
@@ -44,6 +51,8 @@ namespace API.Controllers
             return list!;
         }
 
+        // Admin và Technician update
+        [Authorize(Roles = "Admin,Technician")]
         [HttpPut("update-partusage/{id:int}")]
         public IActionResult Update(int id, [FromBody] PartUsages model)
         {
@@ -57,6 +66,8 @@ namespace API.Controllers
             return Ok(model);
         }
 
+        // Chỉ Admin xóa
+        [Authorize(Roles = "Admin")]
         [HttpDelete("delete-partusage/{id:int}")]
         public IActionResult Delete(int id)
         {

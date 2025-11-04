@@ -1,6 +1,7 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using BLL.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
@@ -8,7 +9,7 @@ using Model;
 
 namespace API.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ScheduleController : ControllerBase
@@ -22,6 +23,8 @@ namespace API.Controllers
             _cache = cache;
         }
 
+        // Chỉ Admin tạo schedule
+        [Authorize(Roles = "Admin")]
         [HttpPost("create-schedule")]
         public Schedules Create([FromBody] Schedules model)
         {
@@ -30,9 +33,11 @@ namespace API.Controllers
             return model;
         }
 
+        // Tất cả role xem schedule theo ID
         [HttpGet("get-by-id/{id}")]
         public Schedules GetById(string id) => _business.GetDatabyID(id);
 
+        // Tất cả role xem danh sách schedules
         [HttpGet("get-all")]
         public IEnumerable<Schedules> GetAll()
         {
@@ -44,6 +49,8 @@ namespace API.Controllers
             return list!;
         }
 
+        // Chỉ Admin update schedule
+        [Authorize(Roles = "Admin")]
         [HttpPut("update-schedule/{id:int}")]
         public IActionResult Update(int id, [FromBody] Schedules model)
         {
@@ -57,6 +64,8 @@ namespace API.Controllers
             return Ok(model);
         }
 
+        // Chỉ Admin xóa (soft delete)
+        [Authorize(Roles = "Admin")]
         [HttpDelete("delete-schedule/{id:int}")]
         public IActionResult Delete(int id)
         {

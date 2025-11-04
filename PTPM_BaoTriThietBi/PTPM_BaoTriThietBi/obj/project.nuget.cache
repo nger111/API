@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9wUE+7YkqWA=",
+  "dgSpecHash": "82vo8GTdWyM=",
   "success": true,
-  "projectFilePath": "D:\\Môn học 4 năm\\Năm 3\\API\\API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\API.csproj",
+  "projectFilePath": "D:\\Môn học 4 năm\\Năm 3\\API\\Big_Update_API\\PTPM_BaoTriThietBi\\PTPM_BaoTriThietBi\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

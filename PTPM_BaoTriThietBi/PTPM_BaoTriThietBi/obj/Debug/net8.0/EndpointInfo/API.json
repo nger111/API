@@ -195,7 +195,38 @@
         }
       }
     },
-    "/api/Parts/create": {
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Parts/create-parts": {
       "post": {
         "tags": [
           "Parts"
@@ -320,7 +351,7 @@
         }
       }
     },
-    "/api/Parts/update/{id}": {
+    "/api/Parts/update-parts/{id}": {
       "put": {
         "tags": [
           "Parts"
@@ -362,7 +393,7 @@
         }
       }
     },
-    "/api/Parts/delete/{id}": {
+    "/api/Parts/delete-parts/{id}": {
       "delete": {
         "tags": [
           "Parts"
@@ -853,6 +884,44 @@
       }
     },
     "/api/Ticket/get-all": {
+      "get": {
+        "tags": [
+          "Ticket"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Tickets"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Tickets"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Tickets"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Ticket/get-my-tickets": {
       "get": {
         "tags": [
           "Ticket"
@@ -1460,6 +1529,44 @@
         }
       }
     },
+    "/api/WorkOrder/get-my-workorders": {
+      "get": {
+        "tags": [
+          "WorkOrder"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WorkOrders"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WorkOrders"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WorkOrders"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/WorkOrder/update-workorder/{id}": {
       "put": {
         "tags": [
@@ -1561,6 +1668,20 @@
             "format": "date-time"
           },
           "usageStatus": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
             "type": "string",
             "nullable": true
           }
@@ -1862,6 +1983,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Nhập JWT token vào đây. Ví dụ: Bearer {token}",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

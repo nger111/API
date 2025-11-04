@@ -1,30 +1,24 @@
-<<<<<<< HEAD
-﻿-- ==========================================
--- TẠO DATABASE
--- ==========================================
-=======
+====
 ﻿
->>>>>>> 2f001df (Big Update)
+
 CREATE DATABASE DeviceMaintenanceDB;
 GO
 USE DeviceMaintenanceDB;
 GO
 
--- ==========================================
-<<<<<<< HEAD
--- BẢNG NGƯỜI DÙNG (USERS)
--- ==========================================
-CREATE TABLE Users (
-=======
+
+
+
+
+
 -- 1️. BẢNG NGƯỜI DÙNG (USERS)
 -- ==========================================
 CREATE TABLE dbo.Users (
->>>>>>> 2f001df (Big Update)
+
     UserID INT IDENTITY(1,1) PRIMARY KEY,
     FullName NVARCHAR(100) NOT NULL,
     Email NVARCHAR(100) UNIQUE NOT NULL,
     PasswordHash NVARCHAR(255) NOT NULL,
-<<<<<<< HEAD
     Role NVARCHAR(50) CHECK (Role IN ('Admin', 'Technician', 'Staff')),
     Phone NVARCHAR(20),
     SkillLevel NVARCHAR(50),         -- Nếu là kỹ thuật viên
@@ -32,116 +26,6 @@ CREATE TABLE dbo.Users (
     CreatedAt DATETIME DEFAULT GETDATE()
 );
 
--- ==========================================
--- BẢNG TÀI SẢN (ASSETS)
--- ==========================================
-CREATE TABLE Assets (
-    AssetID INT IDENTITY(1,1) PRIMARY KEY,
-    AssetName NVARCHAR(100) NOT NULL,
-    SerialNumber NVARCHAR(100) UNIQUE NOT NULL,
-    Location NVARCHAR(255),
-    PurchaseDate DATE,
-    Status NVARCHAR(50) CHECK (Status IN ('Active', 'Inactive', 'UnderMaintenance', 'Decommissioned')),
-    CreatedAt DATETIME DEFAULT GETDATE()
-);
-
--- ==========================================
--- BẢNG BẢO HÀNH (WARRANTIES)
--- ==========================================
-CREATE TABLE Warranties (
-    WarrantyID INT IDENTITY(1,1) PRIMARY KEY,
-    AssetID INT NOT NULL,
-    WarrantyProvider NVARCHAR(100),
-    StartDate DATE,
-    EndDate DATE,
-    Terms NVARCHAR(255),
-    FOREIGN KEY (AssetID) REFERENCES Assets(AssetID)
-);
-
--- ==========================================
--- BẢNG LỊCH BẢO TRÌ (SCHEDULES)
--- ==========================================
-CREATE TABLE Schedules (
-    ScheduleID INT IDENTITY(1,1) PRIMARY KEY,
-    AssetID INT NOT NULL,
-    MaintenanceType NVARCHAR(50) CHECK (MaintenanceType IN ('Monthly', 'Quarterly', 'Yearly')),
-    NextMaintenanceDate DATE NOT NULL,
-    LastMaintenanceDate DATE,
-    Checklist NVARCHAR(MAX),
-    FOREIGN KEY (AssetID) REFERENCES Assets(AssetID)
-);
-
--- ==========================================
--- BẢNG SỰ CỐ (TICKETS)
--- ==========================================
-CREATE TABLE Tickets (
-    TicketID INT IDENTITY(1,1) PRIMARY KEY,
-    AssetID INT NOT NULL,
-    CreatedBy INT NOT NULL,             -- Người tạo (user nội bộ)
-    AssignedTo INT NULL,                -- Người được phân công (kỹ thuật viên)
-    Priority NVARCHAR(50) CHECK (Priority IN ('Low', 'Medium', 'High', 'Critical')),
-    SLAHours INT,
-    IssueDescription NVARCHAR(MAX),
-    Status NVARCHAR(50) CHECK (Status IN ('Open', 'Assigned', 'Resolved', 'Closed')),
-    CreatedAt DATETIME DEFAULT GETDATE(),
-    FOREIGN KEY (AssetID) REFERENCES Assets(AssetID),
-    FOREIGN KEY (CreatedBy) REFERENCES Users(UserID),
-    FOREIGN KEY (AssignedTo) REFERENCES Users(UserID)
-);
-
--- ==========================================
--- BẢNG WORK ORDERS (LỆNH CÔNG VIỆC)
--- ==========================================
-CREATE TABLE WorkOrders (
-    WorkOrderID INT IDENTITY(1,1) PRIMARY KEY,
-    ScheduleID INT NULL,                -- PM
-    TicketID INT NULL,                  -- CM
-    AssetID INT NOT NULL,
-    AssignedTo INT NULL,                -- Người phụ trách (kỹ thuật viên)
-    WorkType NVARCHAR(50) CHECK (WorkType IN ('Preventive', 'Corrective')),
-    Description NVARCHAR(MAX),
-    Status NVARCHAR(50) CHECK (Status IN ('Pending', 'In Progress', 'Completed', 'Cancelled')),
-    CreatedAt DATETIME DEFAULT GETDATE(),
-    CompletedAt DATETIME NULL,
-    FOREIGN KEY (AssetID) REFERENCES Assets(AssetID),
-    FOREIGN KEY (AssignedTo) REFERENCES Users(UserID),
-    FOREIGN KEY (ScheduleID) REFERENCES Schedules(ScheduleID),
-    FOREIGN KEY (TicketID) REFERENCES Tickets(TicketID)
-);
-
--- ==========================================
--- BẢNG LINH KIỆN (PARTS)
--- ==========================================
-CREATE TABLE Parts (
-    PartID INT IDENTITY(1,1) PRIMARY KEY,
-    PartName NVARCHAR(100) NOT NULL,
-    PartCode NVARCHAR(100) UNIQUE,
-    StockQuantity INT DEFAULT 0,
-    UnitPrice DECIMAL(10,2),
-    Location NVARCHAR(100)
-);
-
--- ==========================================
--- BẢNG SỬ DỤNG LINH KIỆN (PART USAGES)
--- ==========================================
-CREATE TABLE PartUsages (
-    PartUsageID INT IDENTITY(1,1) PRIMARY KEY,
-    WorkOrderID INT NOT NULL,
-    PartID INT NOT NULL,
-    QuantityUsed INT NOT NULL,
-    UsedAt DATETIME DEFAULT GETDATE(),
-    FOREIGN KEY (WorkOrderID) REFERENCES WorkOrders(WorkOrderID),
-    FOREIGN KEY (PartID) REFERENCES Parts(PartID)
-);
-=======
-    Role NVARCHAR(50) NOT NULL CHECK (Role IN (N'Admin', N'Technician', N'Staff')),
-    Phone NVARCHAR(20) NULL,
-    SkillLevel NVARCHAR(50) NULL,
-    Certifications NVARCHAR(255) NULL,
-    IsDeleted BIT NOT NULL CONSTRAINT DF_Users_IsDeleted DEFAULT 0,
-    CreatedAt DATETIME2 NOT NULL CONSTRAINT DF_Users_CreatedAt DEFAULT SYSUTCDATETIME()
-);
-GO
 
 -- ==========================================
 -- 2️. BẢNG TÀI SẢN (ASSETS) - Soft Delete
@@ -569,6 +453,192 @@ AS BEGIN SET NOCOUNT ON;
 END
 GO
 
+
+-- ==========================================
+-- 1️⃣ GET ALL WORKORDERS
+-- ==========================================
+CREATE  PROCEDURE dbo.sp_workorders_get_all
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    SELECT 
+        wo.WorkOrderID,
+        wo.ScheduleID,
+        wo.TicketID,
+        wo.AssetID,
+        wo.AssignedTo,
+        wo.WorkType,
+        wo.Description,
+        wo.Status,
+        wo.UsageStatus,
+        wo.CreatedAt,
+        wo.CompletedAt,
+        a.AssetName,
+        u.FullName AS AssignedToName
+    FROM dbo.WorkOrders wo
+    LEFT JOIN dbo.Assets a ON a.AssetID = wo.AssetID
+    LEFT JOIN dbo.Users u ON u.UserID = wo.AssignedTo
+    WHERE wo.UsageStatus = N'Active'
+    ORDER BY wo.CreatedAt DESC;
+END
+GO
+
+-- ==========================================
+-- 2️⃣ GET WORKORDER BY ID
+-- ==========================================
+CREATE PROCEDURE dbo.sp_workorders_get_by_id
+(
+    @WorkOrderID INT
+)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    SELECT 
+        wo.WorkOrderID,
+        wo.ScheduleID,
+        wo.TicketID,
+        wo.AssetID,
+        wo.AssignedTo,
+        wo.WorkType,
+        wo.Description,
+        wo.Status,
+        wo.UsageStatus,
+        wo.CreatedAt,
+        wo.CompletedAt,
+        a.AssetName,
+        u.FullName AS AssignedToName
+    FROM dbo.WorkOrders wo
+    LEFT JOIN dbo.Assets a ON a.AssetID = wo.AssetID
+    LEFT JOIN dbo.Users u ON u.UserID = wo.AssignedTo
+    WHERE wo.WorkOrderID = @WorkOrderID;
+END
+GO
+
+-- ==========================================
+-- 3️⃣ CREATE WORKORDER
+-- ==========================================
+CREATE PROCEDURE dbo.sp_workorders_create
+(
+    @ScheduleID INT = NULL,
+    @TicketID INT = NULL,
+    @AssetID INT,
+    @AssignedTo INT = NULL,
+    @WorkType NVARCHAR(50),
+    @Description NVARCHAR(MAX) = NULL,
+    @Status NVARCHAR(50) = N'Pending',
+    @UsageStatus NVARCHAR(50) = N'Active'
+)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    INSERT INTO dbo.WorkOrders (
+        ScheduleID, 
+        TicketID, 
+        AssetID, 
+        AssignedTo, 
+        WorkType, 
+        Description, 
+        Status, 
+        UsageStatus
+    )
+    VALUES (
+        @ScheduleID, 
+        @TicketID, 
+        @AssetID, 
+        @AssignedTo, 
+        @WorkType, 
+        @Description, 
+        @Status, 
+        @UsageStatus
+    );
+    
+    -- Không trả ID để phù hợp với Tickets style (repository không mong đợi giá trị trả về)
+END
+GO
+
+-- ==========================================
+-- 4️⃣ UPDATE WORKORDER
+-- ==========================================
+CREATE  PROCEDURE dbo.sp_workorders_update
+(
+    @WorkOrderID INT,
+    @ScheduleID INT = NULL,
+    @TicketID INT = NULL,
+    @AssetID INT,
+    @AssignedTo INT = NULL,
+    @WorkType NVARCHAR(50),
+    @Description NVARCHAR(MAX) = NULL,
+    @Status NVARCHAR(50),
+    @CompletedAt DATETIME2 = NULL,
+    @UsageStatus NVARCHAR(50) = N'Active'
+)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    UPDATE dbo.WorkOrders
+    SET 
+        ScheduleID = @ScheduleID,
+        TicketID = @TicketID,
+        AssetID = @AssetID,
+        AssignedTo = @AssignedTo,
+        WorkType = @WorkType,
+        Description = @Description,
+        Status = @Status,
+        CompletedAt = @CompletedAt,
+        UsageStatus = @UsageStatus
+    WHERE WorkOrderID = @WorkOrderID;
+    
+    SELECT @@ROWCOUNT AS RowsAffected;
+END
+GO
+
+-- ==========================================
+-- 5️⃣ DELETE WORKORDER (Soft Delete)
+-- ==========================================
+CREATE PROCEDURE dbo.sp_workorders_delete
+(
+    @WorkOrderID INT
+)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    -- Soft delete: chuyển UsageStatus thành 'Cancelled'
+    UPDATE dbo.WorkOrders 
+    SET UsageStatus = N'Cancelled' 
+    WHERE WorkOrderID = @WorkOrderID;
+    
+    SELECT @@ROWCOUNT AS RowsAffected;
+END
+GO
+
+
+
+CREATE  PROCEDURE dbo.sp_users_authenticate
+(
+    @Email NVARCHAR(100),
+    @PasswordHash NVARCHAR(255)
+)
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT * FROM dbo.Users 
+    WHERE Email = @Email 
+      AND PasswordHash = @PasswordHash 
+      AND IsDeleted = 0;
+END
+GO
+
+
+
+-- Test nhanh
+EXEC dbo.sp_workorders_get_all;
+GO
+
 -- ==========================================
 -- DỮ LIỆU MẪU
 -- ==========================================
@@ -646,5 +716,6 @@ GO
 -- Xem tất cả users (kể cả đã xóa)
 SELECT UserID, FullName, Email, IsDeleted FROM dbo.Users;
 
--- User ID=4 sẽ có IsDeleted = 1
->>>>>>> 2f001df (Big Update)
+
+
+SELECT * FROM dbo.Assets 

@@ -10,5 +10,6 @@ namespace DAL.Interfaces
         List<Users> GetDataAll();
         bool Update(Users model);
         bool Delete(int userId);
+        Users Authenticate(string email, string passwordHash);
     }
 }

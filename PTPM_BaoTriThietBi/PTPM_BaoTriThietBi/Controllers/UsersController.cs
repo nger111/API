@@ -1,4 +1,5 @@
-using BLL.Interfaces;
+﻿using BLL.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
@@ -8,8 +9,7 @@ using System.Collections.Generic;
 
 namespace API.Controllers
 {
-    //[Authorize]
-    //http://localhost:52872/api/Item/get-by-id/1
+    [Authorize] // Tất cả endpoint cần đăng nhập
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
@@ -23,6 +23,8 @@ namespace API.Controllers
             _cache = cache;
         }
 
+        // Chỉ Admin tạo user
+        [Authorize(Roles = "Admin")]
         [HttpPost("create-users")]
         public Users Create([FromBody] Users model)
         {
@@ -31,9 +33,12 @@ namespace API.Controllers
             return model;
         }
 
+        // Admin xem tất cả, Technician/Staff xem profile của mình
         [HttpGet("get-by-id/{id}")]
         public Users GetById(string id) => _usersBusiness.GetDatabyID(id);
 
+        // Chỉ Admin xem tất cả users
+        [Authorize(Roles = "Admin")]
         [HttpGet("get-all")]
         public IEnumerable<Users> GetAll()
         {
@@ -45,12 +50,20 @@ namespace API.Controllers
             return list!;
         }
 
+        // Admin update bất kỳ, user khác chỉ update chính mình
         [HttpPut("update-user/{id:int}")]
         public IActionResult Update(int id, [FromBody] Users model)
         {
             if (model == null || id <= 0) return BadRequest("Invalid payload.");
-            model.UserID = id;
+            
+            var userRole = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value;
+            var currentUserId = int.Parse(User.FindFirst("UserID")?.Value ?? "0");
 
+            // Nếu không phải Admin, chỉ được sửa chính mình
+            if (userRole != "Admin" && currentUserId != id)
+                return Forbid("Bạn chỉ có thể cập nhật thông tin của chính mình.");
+
+            model.UserID = id;
             var ok = _usersBusiness.Update(model);
             if (!ok) return StatusCode(StatusCodes.Status500InternalServerError, "Update failed.");
 
@@ -58,6 +71,8 @@ namespace API.Controllers
             return Ok(model);
         }
 
+        // Chỉ Admin xóa
+        [Authorize(Roles = "Admin")]
         [HttpDelete("delete-user/{id:int}")]
         public IActionResult Delete(int id)
         {

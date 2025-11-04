@@ -102,5 +102,25 @@ namespace DAL
                 return rows > 0;
             return false;
         }
+
+        public Users Authenticate(string email, string passwordHash)
+        {
+            string msgError = "";
+            try
+            {
+                var dt = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "sp_users_authenticate",
+                    "@Email", email,
+                    "@PasswordHash", passwordHash);
+                
+                if (!string.IsNullOrEmpty(msgError))
+                    throw new Exception(msgError);
+
+                return dt.ConvertTo<Users>().FirstOrDefault();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

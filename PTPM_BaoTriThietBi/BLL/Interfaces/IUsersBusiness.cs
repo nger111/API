@@ -1,4 +1,4 @@
-    using Model;
+using Model;
 using System.Collections.Generic;
 
 namespace BLL.Interfaces
@@ -10,5 +10,6 @@ namespace BLL.Interfaces
         List<Users> GetDataAll();
         bool Update(Users model);
         bool Delete(int userId);
+        Users Authenticate(string email, string passwordHash);
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using BLL.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
@@ -8,8 +9,7 @@ using Model;
 
 namespace API.Controllers
 {
-    //[Authorize]
-    //http://localhost:52872/api/Item/get-by-id/1
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class WarrantyController : ControllerBase
@@ -23,6 +23,8 @@ namespace API.Controllers
             _cache = cache;
         }
 
+        // Chỉ Admin tạo warranty
+        [Authorize(Roles = "Admin")]
         [HttpPost("create-warranties")]
         public Warranties Create([FromBody] Warranties model)
         {
@@ -31,9 +33,11 @@ namespace API.Controllers
             return model;
         }
 
+        // Tất cả role xem warranty theo ID
         [HttpGet("get-by-id/{id}")]
         public Warranties GetById(string id) => _warrantyBusiness.GetDatabyID(id);
 
+        // Tất cả role xem danh sách warranties
         [HttpGet("get-all")]
         public IEnumerable<Warranties> GetAll()
         {
@@ -45,6 +49,8 @@ namespace API.Controllers
             return list!;
         }
 
+        // Chỉ Admin update warranty
+        [Authorize(Roles = "Admin")]
         [HttpPut("update-warranty/{id:int}")]
         public IActionResult Update(int id, [FromBody] Warranties model)
         {
@@ -58,6 +64,8 @@ namespace API.Controllers
             return Ok(model);
         }
 
+        // Chỉ Admin xóa
+        [Authorize(Roles = "Admin")]
         [HttpDelete("delete-warranty/{id:int}")]
         public IActionResult Delete(int id)
         {
